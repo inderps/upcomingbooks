@@ -19,9 +19,6 @@
  * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.connections.html
  */
 
-console.log("IPS if GREAT");
-console.log(process.env.MONGOLAB_URI);
-
 module.exports.connections = {
 
   /***************************************************************************
@@ -61,7 +58,7 @@ module.exports.connections = {
   ***************************************************************************/
   mongo: {
     adapter: 'sails-mongo',
-    url: process.env.MONGOLAB_URI,
+    url: 'mongodb://heroku_app28841056:40ub7js18omr9ep96qbed50v8u@ds063869.mongolab.com:63869/heroku_app28841056',
     schema: true
   },
 
