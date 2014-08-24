@@ -19,6 +19,9 @@
  * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.connections.html
  */
 
+console.log("IPS if GREAT");
+console.log(process.env.MONGOLAB_URI);
+
 module.exports.connections = {
 
   /***************************************************************************
