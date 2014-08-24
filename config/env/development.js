@@ -17,8 +17,8 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-  models: {
-     connection: 'mongoDev'
-  }
+//  models: {
+//     connection: 'mongoDev'
+//  }
 
 };
