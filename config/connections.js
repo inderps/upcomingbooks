@@ -62,12 +62,12 @@ module.exports.connections = {
 ////    schema: true
 //  },
 
-  mongo: {
-      adapter: 'sails-mongo',
-      host: 'localhost',
-      port: 27017,
-      database: 'upcoming_books'
-  },
+//  mongo: {
+//      adapter: 'sails-mongo',
+//      host: 'localhost',
+//      port: 27017,
+//      database: 'upcoming_books'
+//  },
 
   /***************************************************************************
   *                                                                          *
