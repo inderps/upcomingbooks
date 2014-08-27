@@ -23,22 +23,23 @@ module.exports = {
    * `BookController.show()`
    */
   show: function (req, res) {
-      Author.create({name: 'ips'}).exec(function createCB(err, created){
-          console.log(created.name);
-      });
-      Author.find({}).exec(function findCB(err, found){
-          var user = null;
-        while(found.length){
-            user = found.pop().name;
-        }
-          res.render('book/show', {
-              user: user
-          });
-      });
+//      Author.create({name: 'ips'}).exec(function createCB(err, created){
+//          console.log(created.name);
+//      });
+//      Author.find({}).exec(function findCB(err, found){
+//          var user = null;
+//        while(found.length){
+//            user = found.pop().name;
+//        }
+//          res.render('book/show', {
+//              user: user
+//          });
+//      });
 //    console.log("ss");
 //    return res.json({
 //      todo: 'show() is not implemented yet!'
 //    });
+    res.render('book/show');
   }
 };
 

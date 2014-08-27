@@ -1,8 +1,48 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/purecss/pure-min.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/styles/pagethemes/black/black.css">
+    <link rel="stylesheet" href="/styles/pagethemes/black/countdown/jquery.countdown.css">
 </head>
-    <%= user %>
+<div class="book-container">
+    <div class="book">
+        <div class="book-cover">
+            <img src="/images/books/book.jpg" />
+        </div>
+        <h1 class="title">The Zone of Interest</h1>
+        <p class="author">
+            Martin Amis
+        </p>
+        <div id="launchCountdown"></div>
+
+    </div>
+</div>
+<div class="book-detail">
+
+<div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2"> <img src="/images/books/book.jpg" /> </div>
+    <div class="pure-u-1 pure-u-md-1-2 content">
+        <p>
+            The Zone of Interest isn't Martin Amis's first attempt to write about the Holocaust -- Time’s Arrow told the story of a doctor working during the time period. His newest novel approaches the topic head-on, setting a love story in the unlikely setting of a concentration camp.
+        </p>
+    </div>
+</div>
+</div>
+
+
+<script src="/js/dependencies/sails.io.js"></script>
 <script src="/js/jquery/jquery-2.1.1.min.js"></script>
+<script src="/js/countdown/jquery.plugin.min.js"></script>
+<script src="/js/countdown/jquery.countdown.min.js"></script>
+<script src="/js/backstretch/backstretch.min.js"></script>
+<script src="/js/pagethemes/black.js"></script>
 </html>
