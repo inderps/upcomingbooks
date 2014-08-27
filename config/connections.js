@@ -56,11 +56,11 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-//  mongo: {
-////    adapter: 'sails-mongo',
-////    url: 'mongodb://heroku_app28841056:40ub7js18omr9ep96qbed50v8u@ds063869.mongolab.com:63869/heroku_app28841056',
-////    schema: true
-//  },
+  mongo: {
+    adapter: 'sails-mongo',
+    url: 'mongodb://heroku_app28841056:40ub7js18omr9ep96qbed50v8u@ds063869.mongolab.com:63869/heroku_app28841056',
+//    schema: true
+  },
 
 //  mongo: {
 //      adapter: 'sails-mongo',
