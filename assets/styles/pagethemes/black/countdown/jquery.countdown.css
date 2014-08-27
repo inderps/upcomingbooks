@@ -2,6 +2,7 @@
 .is-countdown {
     margin: 50px auto;
     font-size: 48px;
+    width: 75%;
 }
 .countdown-rtl {
 	direction: rtl;
