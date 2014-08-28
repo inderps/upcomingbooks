@@ -5,6 +5,15 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.container{
+    width: 75%;
+    text-align: center;
+    margin: 150px auto;
+}
+.container h1{
+    font-weight: 100;
+    font-size: 40px;
+}
 
 .book-container {
     z-index: 1;
@@ -32,22 +41,33 @@ body {
     margin-top: 10px;
 }
 
-.abstract-container{
-    width: 75%;
-    text-align: center;
-    margin: 150px auto;
-}
-
-.abstract-container h1{
-    font-weight: 100;
-    font-size: 40px;
-}
-
 .abstract-container p{
     padding: 25px;
     font-size: 20px;
     text-align: justify;
     line-height: 2em;
+}
+
+.email-container{
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.email-container form.email-form {
+    width: 70%;
+    margin: auto;
+}
+
+.email-container form.email-form fieldset label{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.email-container form.email-form fieldset input{
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 @media (min-width: 48em) {
